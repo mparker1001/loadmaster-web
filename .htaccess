@@ -1,9 +1,0 @@
-Order Allow,Deny
-Allow from 127.0.0.1 50.56.228.64 72.3.128.84 75.58.161.229 50.56.228.101 50.56.228.100
-
-AuthType Basic
-AuthName "Restricted Files"
-AuthUserFile /etc/httpd/conf/.htpasswd
-Require valid-user
-
-Satisfy Any
