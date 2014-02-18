@@ -1,3 +1,4 @@
 ab/output/*
 siege/cache/*
+.htaccess
 config.inc.php
