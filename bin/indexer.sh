@@ -18,6 +18,7 @@ pkill -9 sproxy
 
 cd $cachepath
 /usr/local/bin/sproxy -o $urlfile &>/dev/null &
+sleep 2
 sproxy_pid=$!
 
 #start=$(date "+%s")
