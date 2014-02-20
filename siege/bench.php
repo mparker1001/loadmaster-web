@@ -17,10 +17,10 @@ $servers = intval($_POST['servers']);  //Number of servers to use
 $verbose = intval($_POST['verbose']);  //Whether to use verbose output in siege
 
 if ( $verbose == 1 ) {
-	$verboseoption = "-v ";
+	$verboseoption = "";
 }
 else {
-	 $verboseoption = "";
+	 $verboseoption = "-y ";
 }
 
 $countertime = $runtime * 60;
