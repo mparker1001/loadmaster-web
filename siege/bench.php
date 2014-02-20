@@ -20,7 +20,7 @@ if ( $verbose == 1 ) {
 	$verboseoption = "";
 }
 else {
-	 $verboseoption = "-y ";
+	 $verboseoption = "-q ";
 }
 
 $countertime = $runtime * 60;
